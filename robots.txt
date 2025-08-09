@@ -1,0 +1,58 @@
+# robots.txt for gag-recipes.net
+
+# 常规搜索引擎规则
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$
+
+# 网站地图
+Sitemap: https://gag-recipes.net/sitemap.xml
+
+# AI爬虫特定规则 - 限制访问但允许llms.txt
+User-agent: GPTBot
+Allow: /llms.txt
+Disallow: /
+
+User-agent: anthropic-ai
+Allow: /llms.txt
+Disallow: /
+
+User-agent: Claude-Web
+Allow: /llms.txt
+Disallow: /
+
+User-agent: PerplexityBot
+Allow: /llms.txt
+Disallow: /
+
+User-agent: GoogleOther
+Allow: /llms.txt
+Disallow: /
+
+User-agent: DuckAssistBot
+Allow: /llms.txt
+Disallow: /
+
+# 常规搜索引擎保持完全访问
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$

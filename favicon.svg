@@ -1,0 +1,35 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#69e4a5" stroke="#2d5a4a" stroke-width="1"/>
+  
+  <!-- Burger -->
+  <g transform="translate(6, 6)">
+    <!-- Burger bun top -->
+    <ellipse cx="8" cy="4" rx="6" ry="3" fill="#f4a261" stroke="#2d5a4a" stroke-width="0.8"/>
+    <!-- Sesame seeds -->
+    <circle cx="6" cy="3" r="0.5" fill="#fff"/>
+    <circle cx="10" cy="3.5" r="0.5" fill="#fff"/>
+    
+    <!-- Lettuce -->
+    <ellipse cx="8" cy="7" rx="5" ry="1.5" fill="#90c695" stroke="#2d5a4a" stroke-width="0.5"/>
+    
+    <!-- Patty -->
+    <ellipse cx="8" cy="9" rx="5.5" ry="2" fill="#8b4513" stroke="#2d5a4a" stroke-width="0.5"/>
+    
+    <!-- Burger bun bottom -->
+    <ellipse cx="8" cy="12" rx="6" ry="2.5" fill="#deb887" stroke="#2d5a4a" stroke-width="0.8"/>
+  </g>
+  
+  <!-- Carrot -->
+  <g transform="translate(20, 10)">
+    <!-- Carrot body -->
+    <polygon points="0,10 1.5,0 3,10" fill="#ff6b35" stroke="#2d5a4a" stroke-width="0.5"/>
+    <!-- Carrot lines -->
+    <line x1="0.5" y1="3" x2="2.5" y2="3" stroke="#2d5a4a" stroke-width="0.3"/>
+    <line x1="0.5" y1="6" x2="2.5" y2="6" stroke="#2d5a4a" stroke-width="0.3"/>
+    
+    <!-- Carrot leaves -->
+    <path d="M0.5,-1 Q0,-2 1,-1.5 Q2,-3 1.5,-1" fill="#90c695" stroke="#2d5a4a" stroke-width="0.4"/>
+    <path d="M1.5,-1 Q1,-2 2,-1.5 Q3,-3 2.5,-1" fill="#90c695" stroke="#2d5a4a" stroke-width="0.4"/>
+  </g>
+</svg>

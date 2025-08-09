@@ -1,0 +1,25 @@
+# GAG Recipes
+
+> Complete Grow a Garden (GAG) Roblox game recipe guide featuring 11 detailed food crafting tutorials including burgers, ice cream, sushi, cakes and more. Professional cooking instructions with rarity recipes, ingredient combinations and cooking tips for all skill levels.
+
+GAG Recipes is the ultimate resource for Grow a Garden players looking to master the cooking system. Our comprehensive guide covers everything from simple 2-minute dishes to complex 10-minute meals, with detailed ingredient lists, cooking times, and rarity variants for each recipe.
+
+## Core Recipes
+- [Complete Recipe Collection](https://gag-recipes.net/): Main recipe database with 11 food types including burgers, ice cream, cake, pizza, sushi, salad, hotdog, sandwich, waffle, pie, and donut
+- [Burger Recipes](https://gag-recipes.net/#burger): Advanced burger crafting with Legendary to Prismatic rarity variants
+- [Ice Cream Guide](https://gag-recipes.net/#icecream): Quick 5-minute ice cream recipes with multiple flavor combinations
+- [Cake Tutorials](https://gag-recipes.net/#cake): Complex cake baking with 8-minute cooking time and advanced techniques
+
+## Cooking Resources
+- [Cooking Instructions](https://gag-recipes.net/): Step-by-step cooking process and ingredient preparation tips
+- [Rarity System](https://gag-recipes.net/): Understanding Normal, Uncommon, Rare, Legendary, Mythical, Divine, and Prismatic food rarities
+- [Ingredient Combinations](https://gag-recipes.net/): Complete ingredient pairing guide for optimal results
+
+## Game Information
+- [Recipe Difficulty Levels](https://gag-recipes.net/): Easy, Medium, and Hard recipe classifications with cooking times
+- [Cooking Tips](https://gag-recipes.net/): Professional cooking strategies and time management techniques
+
+## Optional
+- [Privacy Policy](https://gag-recipes.net/privacy-policy.html): Information about data collection and user privacy
+- [Terms of Service](https://gag-recipes.net/terms-of-service.html): Website usage terms and conditions
+- [Cookie Policy](https://gag-recipes.net/cookie-policy.html): Details about cookie usage and tracking

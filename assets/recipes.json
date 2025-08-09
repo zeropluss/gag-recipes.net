@@ -1,0 +1,356 @@
+[
+  {
+    "id": "burger",
+    "name": "Burger",
+    "difficulty": "Hard",
+    "minutes": 10,
+    "image": "./image/burger-front.png",
+    "images": [
+      {
+        "src": "./image/burger-front.png",
+        "alt": "Cheese lettuce tomato burger (front view)",
+        "description": "Classic front view showcasing burger layers"
+      },
+      {
+        "src": "./image/burger-front.png", 
+        "alt": "Cheese lettuce tomato burger (close-up)",
+        "description": "Detailed view of burger ingredients"
+      }
+    ],
+    "badges": ["Popular", "Prismatic Available"],
+    "baseIngredients": ["1x Pepper", "1x Corn", "1x Tomato"],
+    "variants": [
+      { "rarity": "Legendary", "ingredients": ["1x Pepper", "1x Corn", "1x Tomato"] },
+      { "rarity": "Mythical",  "ingredients": ["1x Pepper", "1x Corn", "1x Tomato", "1x Bone Blossom", "1x Beanstalk"] },
+      { "rarity": "Divine",    "ingredients": ["3x Bone Blossom", "1x Corn", "1x Tomato"] },
+      { "rarity": "Prismatic", "ingredients": ["1x Violet Corn", "1x Tomato", "3x Bone Blossom"] }
+    ],
+    "tips": [
+      "Basic Legendary uses the three-piece combo; higher rarities require Bone Blossom and other rare materials.",
+      "Gather all basic ingredients before starting to avoid waiting time."
+    ]
+  },
+  {
+    "id": "icecream",
+    "name": "Ice Cream",
+    "difficulty": "Easy",
+    "minutes": 5,
+    "image": "./image/sushi-roll.png",
+    "images": [
+      {
+        "src": "./image/sushi-roll.png",
+        "alt": "Fresh sushi roll",
+        "description": "Traditional sushi roll with nori"
+      },
+      {
+        "src": "./image/sushi-roll.png",
+        "alt": "Sushi platter",
+        "description": "Assorted sushi platter"
+      }
+    ],
+    "badges": ["Quick", "Popular"],
+    "baseIngredients": ["1x Corn", "1x Sweet item"],
+    "variants": [
+      { "rarity": "Uncommon", "ingredients": ["1x Blueberry", "1x Corn"] },
+      { "rarity": "Uncommon", "ingredients": ["1x Strawberry", "1x Corn"] },
+      { "rarity": "Legendary", "ingredients": ["2x Banana"] },
+      { "rarity": "Legendary", "ingredients": ["1x Pineapple", "1x Corn"] },
+      { "rarity": "Mythical", "ingredients": ["1x Banana", "1x Sugar Apple"] },
+      { "rarity": "Mythical", "ingredients": ["1x Corn", "1x Sugar Apple"] },
+      { "rarity": "Divine", "ingredients": ["3x Sugar Apple", "1x Corn"] },
+      { "rarity": "Divine", "ingredients": ["2x Bamboo", "1x Corn", "2x Bone Blossom"] },
+      { "rarity": "Mythical", "ingredients": ["2x Bamboo", "1x Corn", "2x Bone Blossom"] },
+      { "rarity": "Divine", "ingredients": ["1x Bamboo", "1x Corn", "3x Bone Blossom"] },
+      { "rarity": "Prismatic", "ingredients": ["1x Bamboo", "1x Violet Corn", "4x Bone Blossom"] }
+    ],
+    "tips": [
+      "Corn + any sweet ingredient works; Corn + Watermelon is a classic combination.",
+      "One of the fastest dishes in the game, perfect for beginners."
+    ]
+  },
+  {
+    "id": "cake",
+    "name": "Cake",
+    "difficulty": "Hard",
+    "minutes": 8,
+    "image": "./image/pizza-angle.png",
+    "images": [
+      {
+        "src": "./image/cake-berry.png",
+        "alt": "Multi-layered birthday cake",
+        "description": "Classic layered cake with decorations"
+      },
+      {
+        "src": "./image/cake-berry.png",
+        "alt": "Simple vanilla cake",
+        "description": "Basic single-layer cake"
+      }
+    ],
+    "badges": ["Complex", "Popular"],
+    "baseIngredients": ["3x Kiwi", "2x Banana"],
+    "variants": [
+      { "rarity": "Uncommon", "ingredients": ["2x Corn", "2x Strawberry"] },
+      { "rarity": "Uncommon", "ingredients": ["2x Blueberry", "1x Corn", "1x Tomato"] },
+      { "rarity": "Uncommon", "ingredients": ["2x Corn", "2x Watermelon"] },
+      { "rarity": "Uncommon", "ingredients": ["2x Corn", "2x Pineapple"] },
+      { "rarity": "Rare", "ingredients": ["2x Corn", "2x Sugar Apple"] },
+      { "rarity": "Legendary", "ingredients": ["3x Kiwi", "2x Banana"] },
+      { "rarity": "Mythical", "ingredients": ["2x Corn", "2x Sugar Apple", "1x Bone Blossom"] },
+      { "rarity": "Divine", "ingredients": ["2x Corn", "2x Sugar Apple", "2x Bone Blossom"] },
+      { "rarity": "Prismatic", "ingredients": ["1x Violet Corn", "2x Sugar Apple", "3x Bone Blossom"] }
+    ],
+    "tips": [
+      "Recommended formula: 3x Kiwi + 2x Banana; old formula may produce Donut.",
+      "Many variations available, one of the most complex dishes."
+    ]
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "difficulty": "Medium",
+    "minutes": 7,
+    "image": "./image/salad-onion.png",
+    "images": [
+      {
+        "src": "./image/pizza-angle.png",
+        "alt": "Classic pepperoni pizza",
+        "description": "Traditional pizza with toppings"
+      },
+      {
+        "src": "./image/pizza-angle.png",
+        "alt": "Pizza slice",
+        "description": "Single pizza slice close-up"
+      }
+    ],
+    "badges": ["Most Searched", "Traditional"],
+    "baseIngredients": ["1x Tomato", "1x Wheat", "1x Cheese"],
+    "variants": [
+      { "rarity": "Legendary", "ingredients": ["1x Tomato", "1x Wheat", "1x Cheese"] },
+      { "rarity": "Mythical", "ingredients": ["1x Tomato", "1x Wheat", "1x Cheese", "1x Bone Blossom"] },
+      { "rarity": "Divine", "ingredients": ["1x Tomato", "1x Wheat", "1x Cheese", "2x Bone Blossom"] },
+      { "rarity": "Prismatic", "ingredients": ["1x Tomato", "1x Wheat", "1x Cheese", "3x Bone Blossom"] }
+    ],
+    "tips": [
+      "Classic three-ingredient combo: Tomato + Wheat + Cheese.",
+      "Add Bone Blossom for higher rarity variants."
+    ]
+  },
+  {
+    "id": "sushi",
+    "name": "Sushi",
+    "difficulty": "Medium",
+    "minutes": 6,
+    "image": "./image/cake-berry.png",
+    "images": [
+      {
+        "src": "./image/sushi-roll.png",
+        "alt": "Fresh sushi roll",
+        "description": "Traditional sushi roll with nori"
+      },
+      {
+        "src": "./image/sushi-roll.png",
+        "alt": "Sushi platter",
+        "description": "Assorted sushi platter"
+      }
+    ],
+    "badges": ["Healthy", "Traditional"],
+    "baseIngredients": ["1x Fish", "1x Rice", "1x Seaweed"],
+    "variants": [
+      { "rarity": "Rare", "ingredients": ["1x Fish", "1x Rice", "1x Seaweed"] },
+      { "rarity": "Legendary", "ingredients": ["1x Fish", "1x Rice", "1x Seaweed", "1x Wasabi"] },
+      { "rarity": "Mythical", "ingredients": ["1x Fish", "1x Rice", "1x Seaweed", "1x Bone Blossom"] },
+      { "rarity": "Divine", "ingredients": ["1x Fish", "1x Rice", "1x Seaweed", "2x Bone Blossom"] }
+    ],
+    "tips": [
+      "Fresh fish is essential for quality sushi.",
+      "Wasabi adds authentic flavor and increases rarity."
+    ]
+  },
+  {
+    "id": "salad",
+    "name": "Salad",
+    "difficulty": "Easy",
+    "minutes": 3,
+    "image": "./image/hotdog-board.png",
+    "images": [
+      {
+        "src": "./image/hotdog-board.png",
+        "alt": "Classic hotdog with condiments",
+        "description": "Hotdog on plate with toppings"
+      },
+      {
+        "src": "./image/hotdog-board.png",
+        "alt": "Hotdog on cutting board",
+        "description": "Hotdog preparation on wooden board"
+      }
+    ],
+    "badges": ["Quick", "Healthy"],
+    "baseIngredients": ["1x Lettuce", "1x Tomato", "1x Cucumber"],
+    "variants": [
+      { "rarity": "Normal", "ingredients": ["1x Lettuce", "1x Tomato"] },
+      { "rarity": "Uncommon", "ingredients": ["1x Lettuce", "1x Tomato", "1x Cucumber"] },
+      { "rarity": "Rare", "ingredients": ["1x Lettuce", "1x Tomato", "1x Cucumber", "1x Carrot"] },
+      { "rarity": "Legendary", "ingredients": ["2x Lettuce", "1x Tomato", "1x Cucumber", "1x Carrot"] }
+    ],
+    "tips": [
+      "Perfect beginner dish with short cooking time.",
+      "Use fresh vegetables for best results."
+    ]
+  },
+  {
+    "id": "hotdog",
+    "name": "Hotdog",
+    "difficulty": "Easy",
+    "minutes": 4,
+    "image": "./image/pie-front.png",
+    "images": [
+      {
+        "src": "./image/pie-front.png",
+        "alt": "Pie front view",
+        "description": "Front view of golden baked pie"
+      },
+      {
+        "src": "./image/pie-front.png",
+        "alt": "Classic fruit pie",
+        "description": "Traditional fruit pie with lattice crust"
+      }
+    ],
+    "badges": ["Quick", "Classic"],
+    "baseIngredients": ["1x Wheat", "1x Tomato", "1x Pepper"],
+    "variants": [
+      { "rarity": "Normal", "ingredients": ["1x Carrot", "1x Water"] },
+      { "rarity": "Uncommon", "ingredients": ["1x Carrot", "1x Potato", "1x Water"] },
+      { "rarity": "Rare", "ingredients": ["1x Carrot", "1x Potato", "1x Celery", "1x Water"] },
+      { "rarity": "Legendary", "ingredients": ["2x Carrot", "1x Potato", "1x Celery", "1x Water"] }
+    ],
+    "tips": [
+      "Great for using up extra vegetables.",
+      "Add herbs for enhanced flavor."
+    ]
+  },
+  {
+    "id": "sandwich",
+    "name": "Sandwich",
+    "difficulty": "Easy",
+    "minutes": 2,
+    "image": "./image/donut-top.png",
+    "images": [
+      {
+        "src": "./image/sandwich-horizontal.png",
+        "alt": "Classic deli sandwich",
+        "description": "Layered sandwich with fresh ingredients"
+      },
+      {
+        "src": "./image/sandwich-vertical.png",
+        "alt": "Cut sandwich",
+        "description": "Sandwich cut in half showing layers"
+      }
+    ],
+    "badges": ["Quick", "Classic"],
+    "baseIngredients": ["2x Bread", "1x Meat", "1x Lettuce"],
+    "variants": [
+      { "rarity": "Normal", "ingredients": ["2x Bread", "1x Meat"] },
+      { "rarity": "Uncommon", "ingredients": ["2x Bread", "1x Meat", "1x Lettuce"] },
+      { "rarity": "Rare", "ingredients": ["2x Bread", "1x Meat", "1x Lettuce", "1x Tomato"] },
+      { "rarity": "Legendary", "ingredients": ["2x Bread", "2x Meat", "1x Lettuce", "1x Tomato"] }
+    ],
+    "tips": [
+      "Fastest dish to prepare.",
+      "Great for quick energy boost."
+    ]
+  },
+  {
+    "id": "waffle",
+    "name": "Waffle",
+    "difficulty": "Medium",
+    "minutes": 6,
+    "image": "./image/waffle-round.png",
+    "images": [
+      {
+        "src": "./image/waffle-square.png",
+        "alt": "Square Belgian waffle",
+        "description": "Classic square waffle with grid pattern"
+      },
+      {
+        "src": "./image/waffle-round.png",
+        "alt": "Round waffle",
+        "description": "Traditional round waffle"
+      }
+    ],
+    "badges": ["Traditional", "Popular"],
+    "baseIngredients": ["1x Wheat", "1x Milk", "1x Sugar"],
+    "variants": [
+      { "rarity": "Uncommon", "ingredients": ["1x Wheat", "1x Tomato"] },
+      { "rarity": "Rare", "ingredients": ["1x Wheat", "1x Tomato", "1x Cheese"] },
+      { "rarity": "Legendary", "ingredients": ["1x Wheat", "1x Tomato", "1x Cheese", "1x Herbs"] },
+      { "rarity": "Mythical", "ingredients": ["1x Wheat", "1x Tomato", "1x Cheese", "1x Bone Blossom"] }
+    ],
+    "tips": [
+      "Don't overcook the pasta.",
+      "Fresh herbs make a big difference."
+    ]
+  },
+  {
+    "id": "pie",
+    "name": "Pie",
+    "difficulty": "Easy",
+    "minutes": 2,
+    "image": "./image/pie.png",
+    "images": [
+      {
+        "src": "./image/pie.png",
+        "alt": "Classic fruit pie",
+        "description": "Traditional fruit pie with lattice crust"
+      },
+      {
+        "src": "./image/pie-front.png",
+        "alt": "Pie front view",
+        "description": "Front view of golden baked pie"
+      }
+    ],
+    "badges": ["Quick", "Healthy"],
+    "baseIngredients": ["1x Wheat", "2x Apple", "1x Sugar"],
+    "variants": [
+      { "rarity": "Normal", "ingredients": ["1x Banana", "1x Milk"] },
+      { "rarity": "Uncommon", "ingredients": ["1x Strawberry", "1x Banana", "1x Milk"] },
+      { "rarity": "Rare", "ingredients": ["1x Blueberry", "1x Banana", "1x Milk"] },
+      { "rarity": "Legendary", "ingredients": ["2x Mixed Berries", "1x Banana", "1x Milk"] }
+    ],
+    "tips": [
+      "Use frozen fruit for thicker texture.",
+      "Perfect for hot weather."
+    ]
+  },
+  {
+    "id": "donut",
+    "name": "Donut",
+    "difficulty": "Hard",
+    "minutes": 9,
+    "image": "./image/extra3.png",
+    "images": [
+      {
+        "src": "./image/donut-top.png",
+        "alt": "Glazed donut",
+        "description": "Classic glazed donut with icing"
+      },
+      {
+        "src": "./image/donut-top.png",
+        "alt": "Sprinkled donut",
+        "description": "Donut with colorful sprinkles"
+      }
+    ],
+    "badges": ["Sweet", "Complex"],
+    "baseIngredients": ["1x Wheat", "1x Sugar", "1x Oil"],
+    "variants": [
+      { "rarity": "Rare", "ingredients": ["1x Wheat", "1x Sugar", "1x Oil"] },
+      { "rarity": "Legendary", "ingredients": ["1x Wheat", "1x Sugar", "1x Oil", "1x Vanilla"] },
+      { "rarity": "Mythical", "ingredients": ["1x Wheat", "1x Sugar", "1x Oil", "1x Bone Blossom"] },
+      { "rarity": "Divine", "ingredients": ["1x Wheat", "1x Sugar", "1x Oil", "2x Bone Blossom"] },
+      { "rarity": "Prismatic", "ingredients": ["1x Wheat", "1x Sugar", "1x Oil", "3x Bone Blossom"] }
+    ],
+    "tips": [
+      "Oil temperature is crucial for perfect texture.",
+      "Don't skip the resting time for dough."
+    ]
+  }
+]

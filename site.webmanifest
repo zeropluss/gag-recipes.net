@@ -1,0 +1,40 @@
+{
+  "name": "GAG Recipes - Complete Grow a Garden Recipe Guide",
+  "short_name": "GAG Recipes",
+  "description": "Professional Grow a Garden (GAG) Roblox game recipe guide with 11 food crafting tutorials",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#69e4a5",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./favicon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "apple-touch-icon"
+    }
+  ],
+  "categories": ["games", "education", "food"],
+  "screenshots": [
+    {
+      "src": "./images/og-image.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ]
+}
